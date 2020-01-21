@@ -1,17 +1,10 @@
-## Welcome to GitHub Pages
+This is the free version of [Karna Jekyll Theme](http://webjeda.com/karna-full/)
 
-You can use the [editor on GitHub](https://github.com/zbbkeepgoing/zbbkeepgoing.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Demo: [http://webjeda.com/karna](http://webjeda.com/karna)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-![image01](Desert.jpg)
-![image02](Hydrangeas.jpg)
-![image03](Jellyfish.jpg)
+## Installation
+* Fork the repository
+* Go to settings and set Github Pages source as master.
+* Your new site should be ready.
 
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/zbbkeepgoing/zbbkeepgoing.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+For more themes visit - [https://jekyll-themes.com](https://jekyll-themes.com)
