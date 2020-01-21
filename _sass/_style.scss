@@ -3,7 +3,7 @@
     margin: 1em auto;
     height: auto;
 }
-.cols {
+/*.cols {
     -moz-column-count: 4;
     -moz-column-gap: 2%;
     -moz-column-width: 25%;
@@ -50,10 +50,10 @@
     &:hover{
           box-shadow: 3px 3px 6px #aaa;
           -webkit-box-shadow: 3px 3px 6px #aaa;
-          -webkit-box-shadow: 3px 3px 6px #aaa; 
+          -webkit-box-shadow: 3px 3px 6px #aaa;
     }
 }
-
+*/
 
 
 #grid[data-columns]::before {
