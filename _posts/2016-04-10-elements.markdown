@@ -1,9 +1,0 @@
----
-layout: post
-title:  "Elements"
-description: 要改的标题
-categories: jekyll update
-img: image-8.jpg
-color: FF6F00
-author: webjeda
----
