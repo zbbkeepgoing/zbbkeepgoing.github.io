@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Even - A super concise theme for Hugo</title>
-    <link>http://localhost:8080/tags/</link>
+    <link>https://zbbkeepgoing.github.io/tags/</link>
     <description>Recent content in Tags on Even - A super concise theme for Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 15 Jun 2020 13:50:51 +0800</lastBuildDate>
     
-	<atom:link href="http://localhost:8080/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://zbbkeepgoing.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>preview</title>
-      <link>http://localhost:8080/tags/preview/</link>
+      <link>https://zbbkeepgoing.github.io/tags/preview/</link>
       <pubDate>Mon, 15 Jun 2020 13:50:51 +0800</pubDate>
       
-      <guid>http://localhost:8080/tags/preview/</guid>
+      <guid>https://zbbkeepgoing.github.io/tags/preview/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Syntax Highlighting</title>
-      <link>http://localhost:8080/tags/syntax-highlighting/</link>
+      <link>https://zbbkeepgoing.github.io/tags/syntax-highlighting/</link>
       <pubDate>Mon, 15 Jun 2020 13:50:51 +0800</pubDate>
       
-      <guid>http://localhost:8080/tags/syntax-highlighting/</guid>
+      <guid>https://zbbkeepgoing.github.io/tags/syntax-highlighting/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tag-5</title>
-      <link>http://localhost:8080/tags/tag-5/</link>
+      <link>https://zbbkeepgoing.github.io/tags/tag-5/</link>
       <pubDate>Mon, 15 Jun 2020 13:50:51 +0800</pubDate>
       
-      <guid>http://localhost:8080/tags/tag-5/</guid>
+      <guid>https://zbbkeepgoing.github.io/tags/tag-5/</guid>
       <description></description>
     </item>
     
