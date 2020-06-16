@@ -6,7 +6,7 @@
     <description>Recent content on Even - A super concise theme for Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 15 Jun 2020 18:37:43 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jun 2020 22:49:20 +0800</lastBuildDate>
     
 	<atom:link href="https://zbbkeepgoing.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -20,6 +20,15 @@
       <description>Hugo is a static site engine written in Go.
 It makes use of a variety of open source projects including:
  Cobra Viper J Walter Weatherman Cast  Learn more and contribute on GitHub.</description>
+    </item>
+    
+    <item>
+      <title>Hugo Init</title>
+      <link>https://zbbkeepgoing.github.io/post/hugo-init/</link>
+      <pubDate>Mon, 15 Jun 2020 22:49:20 +0800</pubDate>
+      
+      <guid>https://zbbkeepgoing.github.io/post/hugo-init/</guid>
+      <description>Hugo 安装(windows) 按照hugo官网安装即可 验证hugo 1 2 3 F:\hugo\Sites\zbbkeepgoing\themes&amp;gt;hugo version Hugo Static Site Generator v0.72.0-8A7EF3CF windows/amd64 BuildDate: 2020-05-31T 12:08:42Z 创建blog 创建一个blog site 1 2 3 4 5 6 7 8 9 10 11</description>
     </item>
     
     <item>

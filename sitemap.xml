@@ -9,15 +9,50 @@
   </url>
   
   <url>
+    <loc>https://zbbkeepgoing.github.io/tags/blog/</loc>
+    <lastmod>2020-06-15T22:49:20+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://zbbkeepgoing.github.io/categories/</loc>
-    <lastmod>2020-06-15T18:37:43+08:00</lastmod>
+    <lastmod>2020-06-15T22:49:20+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://zbbkeepgoing.github.io/</loc>
-    <lastmod>2020-06-15T18:37:43+08:00</lastmod>
+    <lastmod>2020-06-15T22:49:20+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://zbbkeepgoing.github.io/categories/hugo/</loc>
+    <lastmod>2020-06-15T22:49:20+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://zbbkeepgoing.github.io/post/hugo-init/</loc>
+    <lastmod>2020-06-15T22:49:20+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://zbbkeepgoing.github.io/post/</loc>
+    <lastmod>2020-06-15T22:49:20+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://zbbkeepgoing.github.io/tags/</loc>
+    <lastmod>2020-06-15T22:49:20+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -38,20 +73,6 @@
   
   <url>
     <loc>https://zbbkeepgoing.github.io/tags/juc/</loc>
-    <lastmod>2020-06-15T18:37:43+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://zbbkeepgoing.github.io/post/</loc>
-    <lastmod>2020-06-15T18:37:43+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://zbbkeepgoing.github.io/tags/</loc>
     <lastmod>2020-06-15T18:37:43+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
