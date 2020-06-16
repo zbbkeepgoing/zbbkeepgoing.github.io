@@ -20,32 +20,5 @@
       <description></description>
     </item>
     
-    <item>
-      <title>Java</title>
-      <link>https://zbbkeepgoing.github.io/tags/java/</link>
-      <pubDate>Mon, 15 Jun 2020 18:37:43 +0800</pubDate>
-      
-      <guid>https://zbbkeepgoing.github.io/tags/java/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>JUC</title>
-      <link>https://zbbkeepgoing.github.io/tags/juc/</link>
-      <pubDate>Mon, 15 Jun 2020 18:37:43 +0800</pubDate>
-      
-      <guid>https://zbbkeepgoing.github.io/tags/juc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Syntax Highlighting</title>
-      <link>https://zbbkeepgoing.github.io/tags/syntax-highlighting/</link>
-      <pubDate>Mon, 15 Jun 2020 13:50:51 +0800</pubDate>
-      
-      <guid>https://zbbkeepgoing.github.io/tags/syntax-highlighting/</guid>
-      <description></description>
-    </item>
-    
   </channel>
 </rss>
