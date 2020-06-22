@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on blog of zbbkeepgoing</title>
+    <link>https://zbbkeepgoing.github.io/categories/hugo/</link>
+    <description>Recent content in Hugo on blog of zbbkeepgoing</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 15 Jun 2020 22:49:20 +0800</lastBuildDate>
+    
+	<atom:link href="https://zbbkeepgoing.github.io/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hugo Init</title>
+      <link>https://zbbkeepgoing.github.io/post/hugo-init/</link>
+      <pubDate>Mon, 15 Jun 2020 22:49:20 +0800</pubDate>
+      
+      <guid>https://zbbkeepgoing.github.io/post/hugo-init/</guid>
+      <description>Hugo 安装(windows) 按照hugo官网安装即可 验证hugo F:\hugo\Siteshugo version Hugo Static Site Generator v0.72.0-8A7EF3CF windows/amd64 BuildDate: 2020-05-31T 12:08:42Z 创建blog 创建一个blog site F:\hugo\Siteshugo new site zbbkeepgoing Congratulations! Your new Hugo site is created in F:\hugo\Sites\zbbkeepgoing. Just</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on blog of zbbkeepgoing</title>
+    <link>https://zbbkeepgoing.github.io/tags/</link>
+    <description>Recent content in Tags on blog of zbbkeepgoing</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 15 Jun 2020 22:49:20 +0800</lastBuildDate>
+    
+	<atom:link href="https://zbbkeepgoing.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Blog</title>
+      <link>https://zbbkeepgoing.github.io/tags/blog/</link>
+      <pubDate>Mon, 15 Jun 2020 22:49:20 +0800</pubDate>
+      
+      <guid>https://zbbkeepgoing.github.io/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>preview</title>
+      <link>https://zbbkeepgoing.github.io/tags/preview/</link>
+      <pubDate>Tue, 10 Jul 2018 00:00:00 +0800</pubDate>
+      
+      <guid>https://zbbkeepgoing.github.io/tags/preview/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tag-3</title>
+      <link>https://zbbkeepgoing.github.io/tags/tag-3/</link>
+      <pubDate>Tue, 10 Jul 2018 00:00:00 +0800</pubDate>
+      
+      <guid>https://zbbkeepgoing.github.io/tags/tag-3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Theme preview</title>
+      <link>https://zbbkeepgoing.github.io/tags/theme-preview/</link>
+      <pubDate>Tue, 10 Jul 2018 00:00:00 +0800</pubDate>
+      
+      <guid>https://zbbkeepgoing.github.io/tags/theme-preview/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
