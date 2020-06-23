@@ -17,16 +17,7 @@
       <pubDate>Mon, 15 Jun 2020 22:49:20 +0800</pubDate>
       
       <guid>https://zbbkeepgoing.github.io/post/hugo-init/</guid>
-      <description>Hugo 安装(windows) 按照hugo官网安装即可 验证hugo F:\hugo\Siteshugo version Hugo Static Site Generator v0.72.0-8A7EF3CF windows/amd64 BuildDate: 2020-05-31T 12:08:42Z 创建blog 创建一个blog site F:\hugo\Siteshugo new site zbbkeepgoing Congratulations! Your new Hugo site is created in F:\hugo\Sites\zbbkeepgoing. Just</description>
-    </item>
-    
-    <item>
-      <title>Theme preview</title>
-      <link>https://zbbkeepgoing.github.io/post/even-preview/</link>
-      <pubDate>Tue, 10 Jul 2018 00:00:00 +0800</pubDate>
-      
-      <guid>https://zbbkeepgoing.github.io/post/even-preview/</guid>
-      <description>Based on MarkdownPreview test.md. Markdown # H1 ## H2 ### H3 #### H4 ##### H5 ###### H6 ### Duplicate Header ### Duplicate Header H1 H2 H3 H4 H5 H6 Duplicate Header Duplicate Header Paragraphs This is a paragraph. I am still part of the paragraph. New paragraph. This is a paragraph. I am still part of the paragraph. New paragraph. Anchor Define anchor by {#section-id} Something Footnote This is a</description>
+      <description>Hugo Hugo是一个用golang实现的的静态网站生成器。简单、易用、高效、易扩展、快速部署。与之类似的有hexo和jelly。 安装(windo</description>
     </item>
     
   </channel>

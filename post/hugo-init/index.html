@@ -16,7 +16,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="zbbkeepgoing" /><meta name="description" content="Hugo 安装(windows) 按照hugo官网安装即可 验证hugo F:\hugo\Siteshugo version Hugo Static Site Generator v0.72.0-8A7EF3CF windows/amd64 BuildDate: 2020-05-31T 12:08:42Z 创建blog 创建一个blog site F:\hugo\Siteshugo new site zbbkeepgoing Congratulations! Your new Hugo site is created in F:\hugo\Sites\zbbkeepgoing. Just" /><meta name="keywords" content="Hugo, theme, even" />
+<meta name="author" content="zbbkeepgoing" /><meta name="description" content="Hugo Hugo是一个用golang实现的的静态网站生成器。简单、易用、高效、易扩展、快速部署。与之类似的有hexo和jelly。 安装(windo" /><meta name="keywords" content="Hugo, theme, even" />
 
 
 
@@ -40,22 +40,22 @@
 
 
 <meta property="og:title" content="Hugo Init" />
-<meta property="og:description" content="Hugo 安装(windows) 按照hugo官网安装即可 验证hugo F:\hugo\Siteshugo version Hugo Static Site Generator v0.72.0-8A7EF3CF windows/amd64 BuildDate: 2020-05-31T 12:08:42Z 创建blog 创建一个blog site F:\hugo\Siteshugo new site zbbkeepgoing Congratulations! Your new Hugo site is created in F:\hugo\Sites\zbbkeepgoing. Just" />
+<meta property="og:description" content="Hugo Hugo是一个用golang实现的的静态网站生成器。简单、易用、高效、易扩展、快速部署。与之类似的有hexo和jelly。 安装(windo" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://zbbkeepgoing.github.io/post/hugo-init/" />
 <meta property="article:published_time" content="2020-06-15T22:49:20+08:00" />
 <meta property="article:modified_time" content="2020-06-15T22:49:20+08:00" />
 <meta itemprop="name" content="Hugo Init">
-<meta itemprop="description" content="Hugo 安装(windows) 按照hugo官网安装即可 验证hugo F:\hugo\Siteshugo version Hugo Static Site Generator v0.72.0-8A7EF3CF windows/amd64 BuildDate: 2020-05-31T 12:08:42Z 创建blog 创建一个blog site F:\hugo\Siteshugo new site zbbkeepgoing Congratulations! Your new Hugo site is created in F:\hugo\Sites\zbbkeepgoing. Just">
+<meta itemprop="description" content="Hugo Hugo是一个用golang实现的的静态网站生成器。简单、易用、高效、易扩展、快速部署。与之类似的有hexo和jelly。 安装(windo">
 <meta itemprop="datePublished" content="2020-06-15T22:49:20&#43;08:00" />
 <meta itemprop="dateModified" content="2020-06-15T22:49:20&#43;08:00" />
-<meta itemprop="wordCount" content="638">
+<meta itemprop="wordCount" content="1139">
 
 
 
 <meta itemprop="keywords" content="Blog," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Hugo Init"/>
-<meta name="twitter:description" content="Hugo 安装(windows) 按照hugo官网安装即可 验证hugo F:\hugo\Siteshugo version Hugo Static Site Generator v0.72.0-8A7EF3CF windows/amd64 BuildDate: 2020-05-31T 12:08:42Z 创建blog 创建一个blog site F:\hugo\Siteshugo new site zbbkeepgoing Congratulations! Your new Hugo site is created in F:\hugo\Sites\zbbkeepgoing. Just"/>
+<meta name="twitter:description" content="Hugo Hugo是一个用golang实现的的静态网站生成器。简单、易用、高效、易扩展、快速部署。与之类似的有hexo和jelly。 安装(windo"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -129,8 +129,8 @@
         <div class="post-category">
             <a href="/categories/hugo/"> Hugo </a>
             </div>
-          <span class="more-meta"> 约 638 字 </span>
-          <span class="more-meta"> 预计阅读 2 分钟 </span>
+          <span class="more-meta"> 约 1139 字 </span>
+          <span class="more-meta"> 预计阅读 3 分钟 </span>
         
       </div>
     </header>
@@ -146,17 +146,9 @@
 <li><a href="#创建blog">创建blog</a></li>
 <li><a href="#创建新文章">创建新文章</a></li>
 <li><a href="#安装主题">安装主题</a></li>
+<li><a href="#本地启动blog">本地启动blog</a></li>
 </ul></li>
-<li><a href="#md编辑器选择">md编辑器选择</a></li>
-<li><a href="#theme内容修改">Theme内容修改</a>
-<ul>
-<li><a href="#安装nodejs-yarn-windows">安装Nodejs &amp; Yarn(Windows)</a>
-<ul>
-<li><a href="#nodejs安装">NodeJs安装</a></li>
-<li><a href="#yarn安装">Yarn安装</a></li>
-</ul></li>
-<li><a href="#修改theme后编译">修改theme后编译</a></li>
-</ul></li>
+<li><a href="#github-pages发布">Github Pages发布</a></li>
 </ul>
 </nav>
   </div>
@@ -166,37 +158,37 @@
 
 <h1 id="hugo">Hugo</h1>
 
+<p>Hugo是一个用golang实现的的静态网站生成器。简单、易用、高效、易扩展、快速部署。与之类似的有hexo和jelly。</p>
+
 <h2 id="安装-windows">安装(windows)</h2>
 
-<ol>
-<li><p>按照<a href="https://gohugo.io/getting-started/installing/#windows">hugo官网</a>安装即可</p></li>
+<p>1、按照<a href="https://gohugo.io/getting-started/installing/#windows">hugo官网</a>安装即可，注意如果<strong>你的theme</strong>是<strong>通过hugo pipe</strong>来运行的，并且你希望能够自己<strong>修改theme的文件</strong>，需要<strong>安装的是hugo extended</strong>。</p>
 
-<li><p>验证hugo</p>
-<pre><code>F:\hugo\Sites>hugo version
-Hugo Static Site Generator v0.72.0-8A7EF3CF windows/amd64 BuildDate: 2020-05-31T
-12:08:42Z		</code></pre></li>
-</ol>
+<p>​   <img src="../../images/hugo-init/1.jpg" alt="1" /></p>
+
+<p>2、验证hugo,因为我使用的themes是even，并且希望自定义修改样式，所以安装了extended。</p>
+<pre><code>lzgn@DESKTOP-ALCHMMB MINGW64 /e/hugo/Sites> hugo version
+Hugo Static Site Generator v0.60.0/extended windows/amd64 BuildDate: unknown	</code></pre>
+<p>​   <strong><em>PS：</em></strong>因为并不是所有的theme都能及时跟上hugo的版本变更，所以我这边用的是0.60版本。目前看来一切都挺正常</p>
 
 <h2 id="创建blog">创建blog</h2>
 
-<ol>
-<li><p>创建一个blog site</p>
-<pre><code>F:\hugo\Sites>hugo new site zbbkeepgoing
-Congratulations! Your new Hugo site is created in F:\hugo\Sites\zbbkeepgoing.
-   
-Just a few more steps and you're ready to go:
-   
-1. Download a theme into the same-named folder.
-  Choose a theme from https://themes.gohugo.io/ or
-  create your own with the "hugo new theme <THEMENAME>" command.
-2. Perhaps you want to add some content. You can add single files
-  with "hugo new <SECTIONNAME>\<FILENAME>.<FORMAT>".
-3. Start the built-in live server via "hugo server".
-   
-Visit https://gohugo.io/ for quickstart guide and full documentation.</code></pre></li>
+<p>1、创建一个blog site</p>
+<pre><code>lzgn@DESKTOP-ALCHMMB MINGW64 /e/hugo/Sites>hugo new site hugo-blog
+Congratulations! Your new Hugo site is created in E:\hugo\Sites\hugo-blog.
 
-<li><p>创建成功后会在目录下面出来一堆文件夹</p>
-<pre><code>F:\hugo\Sites\zbbkeepgoing>dir
+Just a few more steps and you're ready to go:
+
+1. Download a theme into the same-named folder.
+   Choose a theme from https://themes.gohugo.io/ or
+   create your own with the "hugo new theme <THEMENAME>" command.
+2. Perhaps you want to add some content. You can add single files
+   with "hugo new <SECTIONNAME>\<FILENAME>.<FORMAT>".
+3. Start the built-in live server via "hugo server".
+
+Visit https://gohugo.io/ for quickstart guide and full documentation.</code></pre>
+<p>2、创建成功后会在目录下面出来一堆文件夹</p>
+<pre><code>lzgn@DESKTOP-ALCHMMB MINGW64 /e/hugo/Sites/hugo-blog>dir
 2020/06/16  12:04    <DIR>          archetypes
 2020/06/16  12:04     82            config.toml   #hugo配置
 2020/06/16  12:04    <DIR>          content       #文章存储位置
@@ -204,83 +196,87 @@ Visit https://gohugo.io/ for quickstart guide and full documentation.</code></pr
 2020/06/16  12:04    <DIR>          layouts       #全局样式，优先于themes
 2020/06/16  12:32    <DIR>          resources
 2020/06/16  12:04    <DIR>          static        #静态文件，优先于themes
-2020/06/16  12:04    <DIR>          themes        #主题目录</code></pre></li>
-</ol>
-
+2020/06/16  12:04    <DIR>          themes        #主题目录</code></pre>
 <h2 id="创建新文章">创建新文章</h2>
 
-<ol>
-<li><p>创建一篇新文章</p>
-<pre><code>F:\hugo\Sites\zbbkeepgoing>hugo new post/myfirst.md
-F:\hugo\Sites\zbbkeepgoing\content\post\myfirst.md created</code></pre></li>
-
-<li><p>content\post\目录下就会创建出myfirst.md文件</p>
-<pre><code>F:\hugo\Sites\zbbkeepgoing>cd content
-F:\hugo\Sites\zbbkeepgoing\content>cd post
-F:\hugo\Sites\zbbkeepgoing\content\post>dir
-2020/06/16  12:32     70       myfirst.md</code></pre></li>
-
-<li><p>myfirst.md文件内容</p>
-<pre><code>F:\hugo\Sites\zbbkeepgoing\content\post>type myfirst.md
+<p>1、创建一篇新文章</p>
+<pre><code>lzgn@DESKTOP-ALCHMMB MINGW64 /e/hugo/Sites/hugo-blog>hugo new post/myfirst.md
+lzgn@DESKTOP-ALCHMMB MINGW64 /e/hugo/Sites/hugo-blog/content/post/myfirst.md created</code></pre>
+<p>2、content\post\目录下就会创建出myfirst.md文件</p>
+<pre><code>lzgn@DESKTOP-ALCHMMB MINGW64 /e/hugo/Sites/hugo-blog>cd content
+lzgn@DESKTOP-ALCHMMB MINGW64 /e/hugo/Sites/hugo-blog/content>cd post
+lzgn@DESKTOP-ALCHMMB MINGW64 /e/hugo/Sites/hugo-blog/post>dir
+2020/06/16  12:32     70       myfirst.md</code></pre>
+<p>3、myfirst.md文件内容</p>
+<pre><code>lzgn@DESKTOP-ALCHMMB MINGW64 /e/hugo/Sites/hugo-blog/content/post>type myfirst.md
 ---
 title: "Myfirst"
 date: 2020-06-16T12:32:08+08:00
 draft: true   #代表草稿文件，正式发布前需要修改为false或者删除该字段
----</code></pre></li>
-</ol>
-
+---</code></pre>
 <h2 id="安装主题">安装主题</h2>
 
-<p>​       hugo默认是没有主题的，需要从<a href="https://themes.gohugo.io/">hugo主题列表</a>或者github中clone一个主题下来。</p>
+<p>hugo默认是没有主题的，需要从<a href="https://themes.gohugo.io/">hugo主题列表</a>或者github中clone一个主题下来。<strong><em>PS：</em></strong>目前我使用的是<a href="https://github.com/olOwOlo/hugo-theme-even">even</a></p>
 
-<ol>
-<li>​<br /></li>
-</ol>
+<p>1、clone 具体的theme到themes文件夹下</p>
+<pre><code>lzgn@DESKTOP-ALCHMMB MINGW64 /e/hugo/Sites/hugo-blog/themes> git clone https://github.com/olOwOlo/hugo-theme-even.git even
+Cloning into 'hugo-theme-even'...
+remote: Enumerating objects: 1574, done.
+remote: Total 1574 (delta 0), reused 0 (delta 0), pack-reused 1574
+Receiving objects: 100% (1574/1574), 1.71 MiB | 23.00 KiB/s, done.
+Resolving deltas: 100% (922/922), done.</code></pre>
+<h2 id="本地启动blog">本地启动blog</h2>
 
-<h1 id="md编辑器选择">md编辑器选择</h1>
+<p>1、拷贝even的配置theme.toml到blog目录底下</p>
+<pre><code>lzgn@DESKTOP-ALCHMMB MINGW64 /e/hugo/Sites/hugo-blog/themes> cp even/theme.toml ../config.toml</code></pre>
+<p>2、修改config.toml相关的配置信息</p>
 
-<p>​       md的编辑器有很多，有在线的、本地的。在这里推荐一款笔者常用的编辑器<a href="https://www.typora.io/">typora</a></p>
+<p>3、本地启动，如果config.toml未指定<strong>theme = &ldquo;even&rdquo;</strong>。则在启动的时候要加上<strong>-e even</strong></p>
+<pre><code>lzgn@DESKTOP-ALCHMMB MINGW64 /e/hugo/Sites/hugo-blog (master)
+$ hugo server
+Building sites …
+                   | ZH-CN
++------------------+-------+
+  Pages            |    29
+  Paginator pages  |     0
+  Non-page files   |     0
+  Static files     |    41
+  Processed images |     0
+  Aliases          |    10
+  Sitemaps         |     1
+  Cleaned          |     0
 
-<h1 id="theme内容修改">Theme内容修改</h1>
+Built in 196 ms
+Watching for changes in E:\hugo\Sites\hugo-blog\{archetypes,content,static,themes}
+Watching for config changes in E:\hugo\Sites\hugo-blog\config.toml
+Environment: "development"
+Serving pages from memory
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Press Ctrl+C to stop</code></pre>
+<p>4、访问<a href="http://localhost:1313/即可看到blog">http://localhost:1313/即可看到blog</a></p>
 
-<p>​       有时候如果我们需要修改Theme中的样式，比如宽度，颜色等等css，我们需要将Theme进行重新编译，才</p>
+<p><img src="../../images/hugo-init/2.jpg" alt="2" /></p>
 
-<p>可以让修改的内容生效。</p>
+<h1 id="github-pages发布">Github Pages发布</h1>
 
-<h2 id="安装nodejs-yarn-windows">安装Nodejs &amp; Yarn(Windows)</h2>
+<p>1、通过hugo将blog编译成静态文件吗，编译完成我们会发现根目录下的public文件多了很多静态资源信息。只需要把这些静态资源push到github即可</p>
+<pre><code>lzgn@DESKTOP-ALCHMMB MINGW64 /e/hugo/Sites/hugo-blog (master)
+$ hugo
+Building sites …
+                   | ZH-CN
++------------------+-------+
+  Pages            |    16
+  Paginator pages  |     0
+  Non-page files   |     0
+  Static files     |    42
+  Processed images |     0
+  Aliases          |     4
+  Sitemaps         |     1
+  Cleaned          |     0
 
-<h3 id="nodejs安装">NodeJs安装</h3>
-
-<ol>
-<li><p>下载最新版本Node.js :<a href="https://nodejs.org/en/download/">https://nodejs.org/en/download/</a></p></li>
-
-<li><p>默认一路下一步，即可安装好node,</p></li>
-
-<li><p>测试Node.js是否成功: node &ndash;version</p>
-<pre><code>F:\>node --version
-v12.18.0</code></pre></li>
-</ol>
-
-<h3 id="yarn安装">Yarn安装</h3>
-
-<ol>
-<li><p>npm安装yarn</p>
-<pre><code>F:\>npm install -g yarn
-C:\Users\binbin\AppData\Roaming\npm\yarnpkg -> C:\Users\binbin\AppData\Roaming\n
-pm\node_modules\yarn\bin\yarn.js
-C:\Users\binbin\AppData\Roaming\npm\yarn -> C:\Users\binbin\AppData\Roaming\npm\
-node_modules\yarn\bin\yarn.js
-+ yarn@1.22.4
-added 1 package in 8.561s</code></pre></li>
-
-<li><p>验证yarn</p>
-<pre><code>F:\>yarn --version
-1.22.4</code></pre></li>
-</ol>
-
-<h2 id="修改theme后编译">修改theme后编译</h2>
-
-<p>​</p>
+Total in 199 ms</code></pre>
+<p>2、具体详细的操作步骤可参考<a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">hugo的官网文章</a></p>
 
     </div>
 
@@ -322,11 +318,7 @@ added 1 package in 8.561s</code></pre></li>
           </div>
       <nav class="post-nav">
         
-        <a class="next" href="/post/even-preview/">
-            <span class="next-text nav-default">Theme preview</span>
-            <span class="next-text nav-mobile">下一篇</span>
-            <i class="iconfont icon-right"></i>
-          </a>
+        
       </nav>
     </footer>
   </article>
