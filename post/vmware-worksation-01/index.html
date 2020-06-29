@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>vmware workstation启动ubuntu桌面虚拟机 - blog of zbbkeepgoing</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="zbbkeepgoing" /><meta name="description" content="Vmware Workstations ​ vmware workstations是vmware公司虚拟化三剑客中的其中之一，vmware公司的虚拟化产品有三个版本分别是workstatio" /><meta name="keywords" content="Hugo, theme, even" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.60.0 with theme even" />
+
+
+<link rel="canonical" href="https://zbbkeepgoing.github.io/post/vmware-worksation-01/" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+<link href="/sass/main.min.365c2b9542efc97dc1410b6d0adff6e9b4c7c99fc0d70cd620c07036b7d3fe96.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
+
+
+<meta property="og:title" content="vmware workstation启动ubuntu桌面虚拟机" />
+<meta property="og:description" content="Vmware Workstations ​ vmware workstations是vmware公司虚拟化三剑客中的其中之一，vmware公司的虚拟化产品有三个版本分别是workstatio" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://zbbkeepgoing.github.io/post/vmware-worksation-01/" />
+<meta property="article:published_time" content="2020-06-28T11:29:38+08:00" />
+<meta property="article:modified_time" content="2020-06-28T11:29:38+08:00" />
+<meta itemprop="name" content="vmware workstation启动ubuntu桌面虚拟机">
+<meta itemprop="description" content="Vmware Workstations ​ vmware workstations是vmware公司虚拟化三剑客中的其中之一，vmware公司的虚拟化产品有三个版本分别是workstatio">
+<meta itemprop="datePublished" content="2020-06-28T11:29:38&#43;08:00" />
+<meta itemprop="dateModified" content="2020-06-28T11:29:38&#43;08:00" />
+<meta itemprop="wordCount" content="2766">
+
+
+
+<meta itemprop="keywords" content="Virtualization," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="vmware workstation启动ubuntu桌面虚拟机"/>
+<meta name="twitter:description" content="Vmware Workstations ​ vmware workstations是vmware公司虚拟化三剑客中的其中之一，vmware公司的虚拟化产品有三个版本分别是workstatio"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">zbbkeepgoing</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">首页</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">归档</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">分类</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">标签</li>
+      </a><a href="/about/">
+        <li class="mobile-menu-item">关于</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">zbbkeepgoing</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">首页</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">归档</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">分类</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">标签</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/about/">关于</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">vmware workstation启动ubuntu桌面虚拟机</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2020-06-28 </span>
+        <div class="post-category">
+            <a href="/categories/vmware-workstation/"> Vmware workstation </a>
+            </div>
+          <span class="more-meta"> 约 2766 字 </span>
+          <span class="more-meta"> 预计阅读 6 分钟 </span>
+        
+      </div>
+    </header>
+
+    <div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">文章目录</h2>
+  <div class="post-toc-content">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#vmware-workstations"><strong>Vmware Workstations</strong></a>
+<ul>
+<li><a href="#vmware-workstations安装"><strong>Vmware workstations安装</strong></a></li>
+<li><a href="#vmware-workstations网络配置"><strong>Vmware Workstations网络配置</strong></a>
+<ul>
+<li><a href="#网络模式"><strong>网络模式</strong></a>
+<ul>
+<li><a href="#主机模式"><strong>主机模式</strong></a></li>
+<li><a href="#nat模式"><strong>Nat模式</strong></a></li>
+<li><a href="#桥接模式"><strong>桥接模式</strong></a></li>
+</ul></li>
+<li><a href="#网络模式选择"><strong>网络模式选择</strong></a>
+<ul>
+<li><a href="#nat模式-1"><strong>Nat模式</strong></a></li>
+<li><a href="#桥接模式-1"><strong>桥接模式</strong></a></li>
+</ul></li>
+<li><a href="#网络模式配置"><strong>网络模式配置</strong></a>
+<ul>
+<li><a href="#nat模式配置"><strong>NAT模式配置</strong></a></li>
+<li><a href="#桥接模式配置"><strong>桥接模式配置</strong></a></li>
+<li><a href="#总结"><strong>总结</strong></a></li>
+</ul></li>
+<li><a href="#虚拟机"><strong>虚拟机</strong></a>
+<ul>
+<li><a href="#配置静态ip"><strong>配置静态ip</strong></a></li>
+<li><a href="#虚拟机开机自启动"><strong>虚拟机开机自启动</strong></a></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+  </div>
+</div>
+    <div class="post-content">
+      
+
+<h1 id="vmware-workstations"><strong>Vmware Workstations</strong></h1>
+
+<p>​       vmware workstations是vmware公司虚拟化三剑客中的其中之一，vmware公司的虚拟化产品有三个版本分别是workstation、GSX server、ESX server。</p>
+
+<p>​       workstation：单机的桌面虚拟化版本，适合个人开发者使用，需要操作系统的支持。</p>
+
+<p>​       GSX server：工作组级的虚拟化版本，适合小型虚拟化场景，也需要操作系统支持，与workstations的优势在于，可以进行远程管理。</p>
+
+<p>​       ESX Server：企业级的虚拟化解决方案，适合大规模虚拟化场景，不需要操作系统支持，直接安装在裸机中，能够充分挖掘利用物理机资源。</p>
+
+<h2 id="vmware-workstations安装"><strong>Vmware workstations安装</strong></h2>
+
+<p>​       1、<a href="https://www.vmware.com/cn/products/workstation-pro/workstation-pro-evaluation.html">官网</a>下载最新版本的vmware workstations，目前我安装的是15.5 pro版本</p>
+
+<p>​       2、下载后进行安装，一路下一步即可，中间会需要许可证密钥，可以网上找一个license。<strong>经济条件允许情况下，请支持正版</strong>。</p>
+
+<h2 id="vmware-workstations网络配置"><strong>Vmware Workstations网络配置</strong></h2>
+
+<p>​       默认workstations有三种网络配置，分别是主机模式、Nat模式、桥接模式。</p>
+
+<h3 id="网络模式"><strong>网络模式</strong></h3>
+
+<p>三种网络模式的讲述有很多文章很详细地进行了讲解，这里不多赘述，感兴趣可以自己进行查询。</p>
+
+<h4 id="主机模式"><strong>主机模式</strong></h4>
+
+<p>主机模式整体结构就是通过主机的虚拟网卡VMware Network Adapter VMnet1连接虚拟交换机VMnet1，从而达到主机与虚拟机通信的目的。主机模式主要是将虚拟机与外网隔开，使得虚拟机成为一个独立的系统，只与主机进行通信。</p>
+
+<p>​   <img src="../../images/vmwareworkstations01/1.jpg" alt="1" /></p>
+
+<h4 id="nat模式"><strong>Nat模式</strong></h4>
+
+<p>Nat模式是在内网ip地址紧缺，但是又希望虚拟机能够进行联网，NAT模式通过主机的虚拟网卡VMware Network Adapter VMnet8连接虚拟交换机VMnet8来达到主机和虚拟机通信的目的。而虚拟的NAT设备实现虚拟机联网的目的以及实现端口映射、内网穿透。</p>
+
+<p>​   <img src="../../images/vmwareworkstations01/2.jpg" alt="2" /></p>
+
+<h4 id="桥接模式"><strong>桥接模式</strong></h4>
+
+<p>桥接模式是通过一个虚拟网桥将主机网卡与虚拟交换机进行连接，所有的桥接模式下的虚拟机都连接到虚拟交换机上，并且虚拟机的ip需要与主机的ip是同一网段、并且子网掩码、网关、dns都一致。</p>
+
+<p>​   <img src="../../images/vmwareworkstations01/3.jpg" alt="3" /></p>
+
+<h3 id="网络模式选择"><strong>网络模式选择</strong></h3>
+
+<p>​       因为博主家中的宽带猫是电信最新的SDN网关设备，而且vmware  workstations是在一台服务器上部署，这台服务器有远程服务卡。这台服务器主机是windows系统。因为服务器还是比较吵，不会一直开着。所以就希望整体的网络架构能够支持以下功能。</p>
+
+<p>​       1、可以利用服务器的远程服务卡网卡的内网ip和22端口与电信宽带的外网ip和某口端口进行端口映射，也就是内网穿透。这样就可以直接进行远程开机。</p>
+
+<p>​       2、还是利用服务器的物理网卡ip与3389端口与电信宽带的外网ip和某个端口进行端口映射，还是内网穿透。这样也就可以进行远程连接。</p>
+
+<p>​       以上的两点都可以通过电信的SDN网关设备中的虚拟服务器实现。也就是内网穿透。如果本身设备的不支持，可以通过路由器中内网穿透功能或者类似花生壳的软件实现。</p>
+
+<p>​       3、除了以上两点，我还希望能够服务器启动的时候就能启动vmware workstation中的所有虚拟机，并且能够在外网中访问。在这点上就设计到vmware workstations的网络配置了。workstations中的三种网络模式中主机模式肯定就不行了。剩下的桥接模式和Nat模式都可以实现我的第三点需求。</p>
+
+<h4 id="nat模式-1"><strong>Nat模式</strong></h4>
+
+<p>​       1、通过NAT模式实现虚拟机能够联网。</p>
+
+<p>​       2、通过NAT模式下的端口映射实现能够通过物理服务器ip+端口连接到虚拟机的ip+端口。</p>
+
+<p>​       3、再通过电信宽带外网的ip+端口映射到物理服务器ip+端口<strong>(光猫的虚拟服务器功能或者路由器的内网穿透)</strong>。</p>
+
+<p>​       4、通过以上4步就可以访问任何一个虚拟机的相关服务。</p>
+
+<p>整体结构见下图：</p>
+
+<p><img src="../../images/vmwareworkstations01/4.jpg" alt="4" /></p>
+
+<h4 id="桥接模式-1"><strong>桥接模式</strong></h4>
+
+<p>​        1、通过桥接实现虚拟机能够联网。</p>
+
+<p>​       2、通过电信宽带外网的ip+端口映射到虚拟机的ip+端口<strong>(光猫的虚拟服务器功能或者路由器的内网穿透)</strong>。</p>
+
+<p>​       3、通过以上三步就可以访问任何一个虚拟机的相关服务。</p>
+
+<p>整体结构见下图：</p>
+
+<p><img src="../../images/vmwareworkstations01/5.jpg" alt="5" /></p>
+
+<h3 id="网络模式配置"><strong>网络模式配置</strong></h3>
+
+<p>vmware workstations中可以通过虚拟网络编辑器来配置网络模式。如下图：</p>
+
+<p><img src="../../images/vmwareworkstations01/6.png" alt="6" /></p>
+
+<p><img src="../../images/vmwareworkstations01/7.jpg" alt="7" /></p>
+
+<h4 id="nat模式配置"><strong>NAT模式配置</strong></h4>
+
+<p>1、选择NAT网络模式，并配置NAT设置、DHCP配置，子网和子网掩码可以按照默认的。</p>
+
+<p><img src="../../images/vmwareworkstations01/8.jpg" alt="8" /></p>
+
+<p>2、NAT设置中，配置网关、以及端口转发(如果有需要)，也就是NAT模式下的端口映射。</p>
+
+<p><img src="../../images/vmwareworkstations01/9.jpg" alt="9" /></p>
+
+<p>3、DHCP配置中，配置ip段。</p>
+
+<p><img src="../../images/vmwareworkstations01/10.jpg" alt="10" /></p>
+
+<p>4、修改虚拟机网络设置，选择NAT模式。</p>
+
+<p><img src="../../images/vmwareworkstations01/11.png" alt="11" /></p>
+
+<p>5、启动虚拟机后，登入并测试是否可以联网以及是否可以通过外网进行登入。</p>
+
+<p>5.1、通过物理服务器进行ssh登入，并且ping  baidu</p>
+
+<p><img src="../../images/vmwareworkstations01/12.jpg" alt="12" /></p>
+
+<p>5.2、通过与物理服务器在同一个局域网的电脑通过物理服务器的ip+13389远程连接该ubuntu。因为上面2中已经加了13389-&gt;192.168.182.128:3389的映射。</p>
+
+<p><img src="../../images/vmwareworkstations01/13.png" alt="13" /></p>
+
+<p><img src="../../images/vmwareworkstations01/14.png" alt="14" /></p>
+
+<p><img src="../../images/vmwareworkstations01/15.png" alt="15" /></p>
+
+<p>5.3、通过外网电脑通过光猫进行内网穿透后远程连接虚拟机。</p>
+
+<p><img src="../../images/vmwareworkstations01/16.png" alt="16" /></p>
+
+<p><img src="../../images/vmwareworkstations01/17.png" alt="17" /></p>
+
+<p><img src="../../images/vmwareworkstations01/18.png" alt="18" /></p>
+
+<p><img src="../../images/vmwareworkstations01/19.png" alt="19" /></p>
+
+<p><em>至此，通过NAT模式我们可以在外部网络访问家中服务器或者电脑中vmware workstations虚拟化出来的虚拟机，可以让工作更加方便一些。</em></p>
+
+<p></br></p>
+
+<h4 id="桥接模式配置"><strong>桥接模式配置</strong></h4>
+
+<p>桥接模式是最简单的，无需配置虚拟网络编辑器。只需要修改虚拟机为桥接模式即可</p>
+
+<p>1、修改虚拟机网络设置，选择桥接模式。</p>
+
+<p><img src="../../images/vmwareworkstations01/20.jpg" alt="20" /></p>
+
+<p>2、启动虚拟机后，桥接模式的虚拟机ip是和物理服务器在同一个网段，登入并测试是否可以联网以及是否可以通过外网进行登入。</p>
+
+<p>2.1、通过物理服务器进行ssh登入，并且ping  baidu</p>
+
+<p><img src="../../images/vmwareworkstations01/21.png" alt="21" /></p>
+
+<p>2.2、通过与物理服务器在同一个局域网的电脑<strong>直接通过</strong>虚拟机的ip+3389远程连接该ubuntu。</p>
+
+<p><img src="../../images/vmwareworkstations01/22.png" alt="22" /></p>
+
+<p><img src="../../images/vmwareworkstations01/23.png" alt="23" /></p>
+
+<p>2.3、通过外网电脑通过光猫进行内网穿透后远程连接虚拟机。</p>
+
+<p><img src="../../images/vmwareworkstations01/24.png" alt="24" /></p>
+
+<p><img src="../../images/vmwareworkstations01/25.png" alt="25" /></p>
+
+<p><img src="../../images/vmwareworkstations01/26.png" alt="26" /></p>
+
+<p><em>至此，通过桥接模式我们可以在外部网络访问家中服务器或者电脑中vmware workstations虚拟化出来的虚拟机，可以让工作更加方便一些。</em></p>
+
+<p></br></p>
+
+<h4 id="总结"><strong>总结</strong></h4>
+
+<p>总的来说，NAT和桥接模式。</p>
+
+<p>如果本身家中设备不多，ip够用，桥接模式更简单，只需要配置光猫或者路由器进行内网穿透即可。</p>
+
+<p>如果ip地址不够用，那NAT绝对是一种更好地方式。缺点就是如果要外部访问内部服务，则NAT设备和光猫或者路由器两者都需要配置端口转发来实现内网穿透。</p>
+
+<p></br></p>
+
+<h3 id="虚拟机"><strong>虚拟机</strong></h3>
+
+<h4 id="配置静态ip"><strong>配置静态ip</strong></h4>
+
+<p>1、以<strong>桥接模式</strong>为例，静态ip属于服务器所在子网。</p>
+<pre><code>root@ubuntu:~# sudo  vim /etc/network/interfaces  
+# interfaces(5) file used by ifup(8) and ifdown(8)
+auto lo     
+iface lo inet loopback  
+auto ens33    
+iface ens33 inet static  # 使用静态ip
+address 192.168.1.10  # 静态ip地址
+netmask 255.255.255.0 # 子网掩码
+gateway 192.168.1.1   # 网关
+dns-nameserver 192.168.1.1</code></pre>
+<p>2、重启网络</p>
+<pre><code>root@ubuntu:~# sudo /etc/init.d/networking restart
+[ ok ] Restarting networking (via systemctl): networking.service.</code></pre>
+<p>3、测试连接</p>
+<pre><code>root@ubuntu:~# ping www.baidu.com
+PING www.a.shifen.com (180.101.49.12) 56(84) bytes of data.
+64 bytes from 180.101.49.12: icmp_seq=1 ttl=53 time=10.2 ms
+64 bytes from 180.101.49.12: icmp_seq=2 ttl=53 time=8.66 ms
+64 bytes from 180.101.49.12: icmp_seq=3 ttl=53 time=9.30 ms
+64 bytes from 180.101.49.12: icmp_seq=4 ttl=53 time=8.47 ms</code></pre>
+<h4 id="虚拟机开机自启动"><strong>虚拟机开机自启动</strong></h4>
+
+<p>为了避免每次通过远程管理卡启动物理服务器后，还需要远程连接到服务器来启动虚拟机。所以我们需要将虚拟机进行开机自启动。</p>
+
+<p>1、控制面板-&gt;管理工具-&gt;任务计划程序 -&gt;创建任务</p>
+
+<p><img src="../../images/vmwareworkstations01/27.jpg" alt="27" /></p>
+
+<p><img src="../../images/vmwareworkstations01/28.jpg" alt="28" /></p>
+
+<p><img src="../../images/vmwareworkstations01/29.jpg" alt="29" /></p>
+
+<p><img src="../../images/vmwareworkstations01/30.jpg" alt="30" /></p>
+
+<p><img src="../../images/vmwareworkstations01/31.jpg" alt="31" /></p>
+
+<p>2、startvm.bat内容，需要注意如果路径中有中文，文件需要另存为ANSI编码的文件。</p>
+<pre><code>vmrun -T ws start "F:\vmware\Ubuntu 64 位.vmx"</code></pre>
+    </div>
+
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">文章作者</span>
+    <span class="item-content">zbbkeepgoing</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">上次更新</span>
+    <span class="item-content">
+        2020-06-28
+        
+    </span>
+  </p>
+  
+  <p class="copyright-item">
+    <span class="item-title">许可协议</span>
+    <span class="item-content">MIT</span>
+  </p>
+</div>
+<div class="post-reward">
+  <input type="checkbox" name="reward" id="reward" hidden />
+  <label class="reward-button" for="reward">赞赏支持</label>
+  <div class="qr-code">
+    
+    <label class="qr-code-image" for="reward">
+        <img class="image" src="https://zbbkeepgoing.github.io/img/reward/wechat.png">
+        <span>微信打赏</span>
+      </label>
+    <label class="qr-code-image" for="reward">
+        <img class="image" src="https://zbbkeepgoing.github.io/img/reward/alipay.png">
+        <span>支付宝打赏</span>
+      </label>
+  </div>
+</div><footer class="post-footer">
+      <div class="post-tags">
+          <a href="/tags/virtualization/">Virtualization</a>
+          </div>
+      <nav class="post-nav">
+        
+        <a class="next" href="/post/hugo-init/">
+            <span class="next-text nav-default">Hugo Init</span>
+            <span class="next-text nav-mobile">下一篇</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+
+  
+
+  
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+  <a href="https://zbbkeepgoing.github.io/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    由 <a class="hexo-link" href="https://gohugo.io">Hugo</a> 强力驱动
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    主题 - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    2020
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">zbbkeepgoing</span>
+  </span>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  <script src="/lib/highlight/highlight.pack.js?v=20171001"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
+
+
+
+<script type="text/javascript" src="/js/main.min.d7b7ada643c9c1a983026e177f141f7363b4640d619caf01d8831a6718cd44ea.js"></script>
+  <script type="text/javascript">
+    window.MathJax = {
+      showProcessingMessages: false,
+      messageStyle: 'none'
+    };
+  </script>
+  <script async src="https://cdn.jsdelivr.net/npm/mathjax@2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"  integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>

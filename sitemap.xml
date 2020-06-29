@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://zbbkeepgoing.github.io/post/vmware-worksation-01/</loc>
+    <lastmod>2020-06-28T11:29:38+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://zbbkeepgoing.github.io/post/hugo-init/</loc>
     <lastmod>2020-06-15T22:49:20+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -16,6 +23,48 @@
   </url>
   
   <url>
+    <loc>https://zbbkeepgoing.github.io/</loc>
+    <lastmod>2020-06-28T11:29:38+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://zbbkeepgoing.github.io/categories/</loc>
+    <lastmod>2020-06-28T11:29:38+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://zbbkeepgoing.github.io/post/</loc>
+    <lastmod>2020-06-28T11:29:38+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://zbbkeepgoing.github.io/tags/</loc>
+    <lastmod>2020-06-28T11:29:38+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://zbbkeepgoing.github.io/tags/virtualization/</loc>
+    <lastmod>2020-06-28T11:29:38+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://zbbkeepgoing.github.io/categories/vmware-workstation/</loc>
+    <lastmod>2020-06-28T11:29:38+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://zbbkeepgoing.github.io/tags/blog/</loc>
     <lastmod>2020-06-15T22:49:20+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -23,35 +72,7 @@
   </url>
   
   <url>
-    <loc>https://zbbkeepgoing.github.io/</loc>
-    <lastmod>2020-06-15T22:49:20+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://zbbkeepgoing.github.io/categories/</loc>
-    <lastmod>2020-06-15T22:49:20+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://zbbkeepgoing.github.io/categories/hugo/</loc>
-    <lastmod>2020-06-15T22:49:20+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://zbbkeepgoing.github.io/post/</loc>
-    <lastmod>2020-06-15T22:49:20+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://zbbkeepgoing.github.io/tags/</loc>
     <lastmod>2020-06-15T22:49:20+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

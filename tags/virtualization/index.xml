@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on blog of zbbkeepgoing</title>
-    <link>https://zbbkeepgoing.github.io/post/</link>
-    <description>Recent content in Posts on blog of zbbkeepgoing</description>
+    <title>Virtualization on blog of zbbkeepgoing</title>
+    <link>https://zbbkeepgoing.github.io/tags/virtualization/</link>
+    <description>Recent content in Virtualization on blog of zbbkeepgoing</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 28 Jun 2020 11:29:38 +0800</lastBuildDate>
     
-	<atom:link href="https://zbbkeepgoing.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://zbbkeepgoing.github.io/tags/virtualization/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,15 +18,6 @@
       
       <guid>https://zbbkeepgoing.github.io/post/vmware-worksation-01/</guid>
       <description>Vmware Workstations ​ vmware workstations是vmware公司虚拟化三剑客中的其中之一，vmware公司的虚拟化产品有三个版本分别是workstatio</description>
-    </item>
-    
-    <item>
-      <title>Hugo Init</title>
-      <link>https://zbbkeepgoing.github.io/post/hugo-init/</link>
-      <pubDate>Mon, 15 Jun 2020 22:49:20 +0800</pubDate>
-      
-      <guid>https://zbbkeepgoing.github.io/post/hugo-init/</guid>
-      <description>Hugo Hugo是一个用golang实现的的静态网站生成器。简单、易用、高效、易扩展、快速部署。与之类似的有hexo和jelly。目前社区非常火热</description>
     </item>
     
   </channel>
