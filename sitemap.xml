@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://zbbkeepgoing.github.io/post/loki-introduction/</loc>
+    <lastmod>2020-08-28T11:29:38+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://zbbkeepgoing.github.io/post/vmware-worksation-01/</loc>
     <lastmod>2020-06-28T11:29:38+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -24,28 +31,42 @@
   
   <url>
     <loc>https://zbbkeepgoing.github.io/</loc>
-    <lastmod>2020-06-28T11:29:38+08:00</lastmod>
+    <lastmod>2020-08-28T11:29:38+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://zbbkeepgoing.github.io/categories/</loc>
-    <lastmod>2020-06-28T11:29:38+08:00</lastmod>
+    <lastmod>2020-08-28T11:29:38+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://zbbkeepgoing.github.io/tags/log/</loc>
+    <lastmod>2020-08-28T11:29:38+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://zbbkeepgoing.github.io/categories/loki/</loc>
+    <lastmod>2020-08-28T11:29:38+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://zbbkeepgoing.github.io/post/</loc>
-    <lastmod>2020-06-28T11:29:38+08:00</lastmod>
+    <lastmod>2020-08-28T11:29:38+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://zbbkeepgoing.github.io/tags/</loc>
-    <lastmod>2020-06-28T11:29:38+08:00</lastmod>
+    <lastmod>2020-08-28T11:29:38+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
