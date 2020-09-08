@@ -140,20 +140,14 @@
   <div class="post-toc-content">
     <nav id="TableOfContents">
 <ul>
-<li>
-<ul>
 <li><a href="#loki-简介">Loki 简介</a>
 <ul>
 <li><a href="#loki整体架构">Loki整体架构</a></li>
 <li><a href="#快速上手loki">快速上手loki</a>
 <ul>
-<li>
-<ul>
 <li><a href="#部署loki">部署Loki</a></li>
 <li><a href="#部署promtail">部署Promtail</a></li>
 <li><a href="#查看运行情况">查看运行情况</a></li>
-</ul></li>
-</ul></li>
 </ul></li>
 </ul></li>
 </ul>
@@ -163,7 +157,7 @@
     <div class="post-content">
       
 
-<h2 id="loki-简介">Loki 简介</h2>
+<h1 id="loki-简介">Loki 简介</h1>
 
 <p>在日志收集领域，我们听到更多的是ELK、EFK等等解决方案，整体架构通过Fluent、LogStash等Agent组件收集日志文件，然后发送给ElasticSearch(后续用ES来替代)进行存储，并对日志进行全文索引，在通过Kibana进行可视化分析查看。确实这个在对于日志的分析以及复杂查询来说是一个非常棒的解决方案。</p>
 
@@ -171,7 +165,7 @@
 
 <p>Loki就是针对与ELK日志解决方案上一个更优、更简单、成本更低的解决方案。Loki是如何做到的？下面我们一一来介绍</p>
 
-<h3 id="loki整体架构">Loki整体架构</h3>
+<h2 id="loki整体架构">Loki整体架构</h2>
 
 <p>这是Loki官网Blog中的一张架构图。</p>
 
@@ -197,17 +191,17 @@
 
 <p>3、通过Querier查询数据的时候有三条线，我们也可以大胆的猜测Ingester组件中必然有一部分缓存的日志内容，还没有来得及刷入到index和chunk存储中。</p>
 
-<h3 id="快速上手loki">快速上手loki</h3>
+<h2 id="快速上手loki">快速上手loki</h2>
 
 <p>Loki的架构中，所有的组件可以进行单独部署，也就是组件的微服务部署。同时也支持所有组件部署在一个单一的Loki中，为了快速上手，我们则将loki的所有的组件进行整体部署。</p>
 
-<h5 id="部署loki">部署Loki</h5>
+<h3 id="部署loki">部署Loki</h3>
 
 <p>获取Loki的配置文件</p>
 <pre><code>wget https://raw.githubusercontent.com/grafana/loki/v1.6.0/cmd/loki/loki-local-config.yaml -O loki-config.yaml</code></pre>
 <p>运行Loki容器</p>
 <pre><code>docker run --name loki -d -v $(pwd):/mnt/config -p 3100:3100 grafana/loki:1.6.0 -config.file=/mnt/config/loki-config.yaml</code></pre>
-<h5 id="部署promtail">部署Promtail</h5>
+<h3 id="部署promtail">部署Promtail</h3>
 
 <p>获取Promtail的配置文件</p>
 <pre><code>wget https://raw.githubusercontent.com/grafana/loki/v1.6.0/cmd/promtail/promtail-docker-config.yaml -O promtail-config.yaml</code></pre>
@@ -223,7 +217,7 @@
 <pre class="chroma"><code class="language-bash" data-lang="bash">docker run --name promtail -p 9080:9080 -d -v <span class="k">$(</span><span class="nb">pwd</span><span class="k">)</span>:/mnt/config -v /var/log:/var/log grafana/promtail:1.6.0 -config.file<span class="o">=</span>/mnt/config/promtail-config.yaml</code></pre></td></tr></table>
 </div>
 </div>
-<h5 id="查看运行情况">查看运行情况</h5>
+<h3 id="查看运行情况">查看运行情况</h3>
 
 <p>本身Loki没有UI界面，我们可以通过LogCLI或者api来查看相关日志。而Promtail有一个类似于Prometheus的界面，用于查看配置所有的job状态以及每个job读取文件的状态。</p>
 
